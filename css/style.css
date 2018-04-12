@@ -1,0 +1,184 @@
+/*
+Project Name: Final Project GADC FEWD37
+Client: Iko Gabay
+Author: Iko Gabay
+Developer @GA in DC
+*/
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+
+
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  color: #3a3a35;
+}
+
+a {
+  text-decoration: none;
+  color: #d44302;
+  font-weight: 700;
+}
+
+a:visited {
+  color: #7b394c;
+}
+
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+header {
+  height: 120px;
+  padding-top: 50px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  height: 120px;
+  padding-top: 50px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.logo {
+  font-family: 'Teko', sans-serif;
+  font-size: 24px;
+  color: #d44302;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.nav a {
+  color: #858585;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.nav a:hover {
+  color:#07214a;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+
+.cards {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.herocopy {
+  display: flex;
+  justify-content: center;
+  font-family: 'Bitter', serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.leftcolumn {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 8px;
+}
+
+.rightcolumn {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 8px;
+}
+
+.aboutmebox {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.linkpadding {
+  padding-top: 20px;
+}
+
+.projectcards {
+  display: block;
+  background-color: #dfdcd2;
+  padding: 30px;
+  min-height: 600px;
+  margin: 10px;
+}
+
+.clientname {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Teko', sans-serif;
+}
+
+.clientname:after {
+  content: '';
+  position: absolute;
+  background: #1a1a1a;
+  width: 30px;
+  height: 4px;
+  bottom: -10px;
+  left: 50%;
+  margin: 0px 0px 0px -15px;
+}
+
+.projectheadline {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  font-weight: 700;
+  font-size: 24px;
+}
